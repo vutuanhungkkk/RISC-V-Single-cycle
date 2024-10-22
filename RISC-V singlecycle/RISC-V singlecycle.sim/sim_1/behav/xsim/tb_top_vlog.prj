@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/ALU_Control.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/ALU_unit.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/AND_logic.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Adder.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Control_unit.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Data_Memory.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/ImmGen.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Mux1.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Mux2.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Mux3.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/PCplus4.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Program_Count.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/Reg_File.v" \
+"../../../../RISC-V singlecycle.srcs/sources_1/new/top.v" \
+"../../../../RISC-V singlecycle.srcs/sim_1/new/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,392 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Oct 14 11:17:17 2024
+# Process ID: 8748
+# Current directory: C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.runs/synth_1/top.vds
+# Journal file: C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-6AOQ1LF
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+# CPU Frequency     :2808 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17057 MB
+# Swap memory       :7247 MB
+# Total Virtual     :24304 MB
+# Available Virtual :14583 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 493.520 ; gain = 199.867
+Command: synth_design -top top -part xc7z010iclg225-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010i'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010i'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4600
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 950.141 ; gain = 452.645
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Program_Count' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Program_Count.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Program_Count' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Program_Count.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PCplus4' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/PCplus4.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'PCplus4' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/PCplus4.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Mem' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:1]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:21]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:22]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:23]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:24]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:27]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:28]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:31]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:32]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:35]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:36]
+WARNING: [Synth 8-6090] variable 'IMemory' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Mem' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Instruction_Mem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Reg_File' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Reg_File.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Reg_File' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Reg_File.v:2]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ImmGen.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ImmGen.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ImmGen.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Control_unit' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'Control_unit' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Control' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_Control.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_Control.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Control' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_Control.v:2]
+INFO: [Synth 8-6157] synthesizing module 'ALU_unit' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_unit.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_unit.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_unit' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_unit.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Mux1' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Mux1.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Mux1' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Mux1.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Adder.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Adder.v:2]
+INFO: [Synth 8-6157] synthesizing module 'AND_logic' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/AND_logic.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'AND_logic' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/AND_logic.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Mux2' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Mux2.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Mux2' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Mux2.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Data_Memory' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Data_Memory.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Memory' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Data_Memory.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Mux3' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Mux3.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Mux3' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Mux3.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/top.v:2]
+WARNING: [Synth 8-7129] Port instruction[19] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[18] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[17] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[16] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[15] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[14] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[13] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[12] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[6] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[5] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[4] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[3] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[2] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[1] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[0] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[31] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[30] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[29] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[28] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[27] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[26] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[25] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[24] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[23] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[22] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[21] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[20] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[19] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[18] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[17] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[16] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[15] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[14] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[13] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[12] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[11] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[10] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[9] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[8] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[7] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[6] in module Instruction_Mem is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1071.121 ; gain = 573.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1071.121 ; gain = 573.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010iclg225-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1071.121 ; gain = 573.625
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010iclg225-1L
+WARNING: [Synth 8-327] inferring latch for variable 'ImmExt_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ImmGen.v:9]
+WARNING: [Synth 8-327] inferring latch for variable 'Branch_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:8]
+WARNING: [Synth 8-327] inferring latch for variable 'MemRead_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:8]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:8]
+WARNING: [Synth 8-327] inferring latch for variable 'MemWrite_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:8]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrc_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:8]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWrite_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/Control_unit.v:8]
+WARNING: [Synth 8-327] inferring latch for variable 'Control_out_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_Control.v:9]
+WARNING: [Synth 8-327] inferring latch for variable 'ALU_Result_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_unit.v:9]
+WARNING: [Synth 8-327] inferring latch for variable 'zero_reg' [C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.srcs/sources_1/new/ALU_unit.v:9]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1071.121 ; gain = 573.625
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 161   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   7 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 34    
+	   7 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7z010iclg225-1L does not have CEAM library.
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port read_address[31] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[30] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[29] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[28] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[27] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[26] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[25] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[24] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[23] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[22] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[21] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[20] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[19] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[18] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[17] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[16] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[15] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[14] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[13] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[12] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[11] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[10] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[9] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[8] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[7] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_address[6] in module Instruction_Mem is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[31]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[30]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[29]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[28]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[27]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[26]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[25]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[24]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[23]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[22]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[21]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[20]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ImmGen/ImmExt_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (Control_unit/Branch_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (Control_unit/MemRead_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (Control_unit/ALUOp_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (Control_unit/ALUOp_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (Control_unit/MemWrite_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (Control_unit/ALUSrc_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (Control_unit/RegWrite_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU_Control/Control_out_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU_Control/Control_out_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU_Control/Control_out_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU_Control/Control_out_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[31]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[30]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[29]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[28]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[27]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[26]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[25]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[24]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[23]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[22]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[21]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[20]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/ALU_Result_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ALU/zero_reg) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 165 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1261.984 ; gain = 764.488
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1261.984 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1360.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: d8fee92f
+INFO: [Common 17-83] Releasing license: Synthesis
+45 Infos, 165 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:01:02 . Memory (MB): peak = 1360.586 ; gain = 867.066
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V singlecycle/RISC-V singlecycle.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 14 11:18:48 2024...
