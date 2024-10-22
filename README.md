@@ -19,7 +19,7 @@ RISC-V, a Reduced Instruction Set Computer (RISC) architecture, is open-source, 
 For a comprehensive understanding of RISC-V architecture and design principles, consult "Computer Organization and Design RISC-V Edition: The Hardware/Software Interface" by David Patterson and John Hennessy.
 Link "https://github.com/Majid-Ali25/Computer-Architecture"
 
+![image](https://github.com/user-attachments/assets/c464800d-d715-4286-8d4b-4832e979bdce)
 
-![Uploading image.png…]()
 
 
