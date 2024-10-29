@@ -1,0 +1,19 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sim_1/new/TestSingleCycle.v,1730211033,verilog,,,,TestSingleCycle,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/ALU.v,1730210593,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Adder.v,,ALU,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Adder.v,1730212635,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Controller.v,,Adder,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Controller.v,1730213143,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/DataMem.v,,Controller,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/DataMem.v,1730210442,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/DataPath.v,,DataMem,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/DataPath.v,1730212592,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/ImmExtend.v,,DataPath,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/ImmExtend.v,1730212475,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/InstMemory.v,,ImmExtend,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/InstMemory.v,1730210732,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Mux2to1.v,,InstMemory,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Mux2to1.v,1730210806,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Mux3to1.v,,Mux2to1,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Mux3to1.v,1730210843,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Mux4to1.v,,Mux3to1,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Mux4to1.v,1730210881,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Register.v,,Mux4to1,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/Register.v,1730210945,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/RegisterFile.v,,Register,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/RegisterFile.v,1730210987,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/RiscvSingleCyle.v,,RegisterFile,,,,,,,,
+C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sources_1/new/RiscvSingleCyle.v,1730212759,verilog,,C:/Users/hung/Desktop/vivaldoproject/lab1/RISC-V/RISC-V.srcs/sim_1/new/TestSingleCycle.v,,RiscvSingleCyle,,,,,,,,
